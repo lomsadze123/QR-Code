@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Outfit:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Outfit&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.text {
+    margin: 24px 16px 40px 16px;
+}
+
+h1 {
+    color: #1F314F;
+    font-size: 22px;
+    line-height: 27.72px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+p {
+    font-weight: 400;
+    color: #7D889E;
+    font-size: 15px;
+    line-height: 18.9px;
+    letter-spacing: 0.19px;
+    text-align: center;
+    margin: 0 16px;
+}
